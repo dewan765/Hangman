@@ -4,7 +4,7 @@ var word = "";
 var guesses = "";
 function newGame() {
     var randomIndex = parseInt(Math.random()*POSSIBLE_WORDS.length);
-    var word = POSSIBLE_WORDS[randomIndex];
+    word = POSSIBLE_WORDS[randomIndex];
     guesses = "";
     updatePage();
 }
